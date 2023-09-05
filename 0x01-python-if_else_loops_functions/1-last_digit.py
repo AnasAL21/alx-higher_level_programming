@@ -7,7 +7,8 @@ if last_digit_str > 5:
             and is greater than 5')
 
 elif 0 != last_digit_str < 6:
-    print(f'Last digit of {number} is {last_digit_str} and is less than 6 and not 0')
+    print(f'Last digit of {number} is {last_digit_str}\
+            and is less than 6 and not 0')
 
 else:
     print(f'Last digit of {last_digit_str} and is 0')
