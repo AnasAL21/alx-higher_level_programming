@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines a rectangle class"""
-
+#kjjjdjjj
 class Rectangle:
     """Represent a Rectangle."""
 
