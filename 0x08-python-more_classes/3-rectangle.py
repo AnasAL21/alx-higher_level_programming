@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a rectangle class"""
+"""Defines a rectangle """
 
 class Rectangle:
     """Represent a Rectangle."""
@@ -39,11 +39,9 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """Return the area"""
         return (self.__width * self.__height)
 
     def perimeter(self):
-        """Return the perimeter"""
         if self.__width == 0 or self.__height == 0:
             return (0)
         return ((self.__width * 2) + (self.__height * 2))
@@ -52,9 +50,9 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        rect = []
+        rec = []
         for i in range(self.__height):
-            [rect.append('#') for j in range(self.__width)]
-            if i != self.__height -1:
-                rect.append("\n")
-        return ("".join(rect))
+            [rec.append('#') for j in range(self.__width)]
+            if i != self.__height - 1:
+                rec.append("\n")
+        return ("".join(rec))
